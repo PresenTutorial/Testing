@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.cvbb {
+	text-align: center; 
+	font-family: quicksand,'sans-serif'; 
+	word-spacing: 2px;
+	 margin-left: 100px;
+	 margin-right: 100px;
+}
+.container {
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 10px whitesmoke; 
+	z-index: 1;
+}
+.container h2 {
+	font-family: 'Nunito', sans-serif;
+	float: left;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.menu-bar {
+	list-style-type: none;
+	float: right;
+	margin-top: 15px;
+	margin-right: 150px;
+}
+.menu-bar li a:hover {
+	background-color: #ECECEC;
+}
+.menu-bar li {
+	display: inline-block;
+}
+.menu-bar li a {
+	font-family: quicksand,'sans-serif';
+	padding: 16px;
+	text-decoration: none;
+	color: #000000;
+}
+.Active {
+	font-family: quicksand,'sans-serif';
+	padding: 16px;
+	text-decoration: none;
+	color: #000000;
+	background-color:#E5E5E5 ;
+}
+.image {
+	background-image: url(../170249.jpg);
+	width: 100%;
+	height: 600px;
+background-size: cover;
+justify-content: center;
+align-items: center;
+display: flex;
+position: relative;
+}
+.image h2 {
+	font-family: nunito,'sans-serif';
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: center;
+	z-index: 1;
+}
+.imgh {
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+
+}
+.image span {
+	font-family: nunito,'sans-serif';
+	font-size: 15px;
+	color: white;
+}
+.cb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.About {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.col-1-medsos {
+	display: inline-block;
+	margin-top: 20px;
+}
+.col-1-medsos a {
+	font-family: quicksand,'sans-serif';
+	text-decoration:none;
+	color: #000000;
+	padding: 16px 30px;
+	font-size: 20px;
+}
+.col-1-medsos a:hover {
+	background-color: #F3F3F3 ;
+}
+.Medsos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.Footer {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	background-color: #858585;
+	justify-content: center;
+	align-items: center;
+}
+.image:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .6);
+}
+.vb {
+	font-size: 28px;
+	float: left;
+	padding: 10px;
+	display: none;
+}
+@media (max-width: 729px) {
+	.menu-bar {
+		display: none;
+	}
+	.vb {
+		display: block;
+	}
+	.vb:hover {
+		background-color: #E5E5E5; 
+	}
+	.container h2 {
+		margin-left: 10px;
+	}
+}
+@media (max-width: 478px) {
+	.cvbb {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
